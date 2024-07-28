@@ -1,0 +1,305 @@
+digraph {
+    graph [ rankdir=TB ]
+
+    0 [ label="Contract_Month-to-month" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="Monthly_Charges<93.6999969" ]
+    1 -> 3 [label="yes" color="#FF0000"]
+    1 -> 4 [label="no, missing" color="#0000FF"]
+
+    3 [ label="Online_Security_No" ]
+    3 -> 7 [label="yes" color="#FF0000"]
+    3 -> 8 [label="no, missing" color="#0000FF"]
+
+    7 [ label="City_San_Jose" ]
+    7 -> 15 [label="yes" color="#FF0000"]
+    7 -> 16 [label="no, missing" color="#0000FF"]
+
+    15 [ label="City_El_Cajon" ]
+    15 -> 29 [label="yes" color="#FF0000"]
+    15 -> 30 [label="no, missing" color="#0000FF"]
+
+    29 [ label="City_Glendale" ]
+    29 -> 55 [label="yes" color="#FF0000"]
+    29 -> 56 [label="no, missing" color="#0000FF"]
+
+    55 [ label="leaf=-0.384894043" ]
+
+    56 [ label="leaf=-0.093202278" ]
+
+    30 [ label="leaf=-0.0606103949" ]
+
+    16 [ label="Longitude<-121.889839" ]
+    16 -> 31 [label="yes" color="#FF0000"]
+    16 -> 32 [label="no, missing" color="#0000FF"]
+
+    31 [ label="Streaming_Movies_No" ]
+    31 -> 57 [label="yes" color="#FF0000"]
+    31 -> 58 [label="no, missing" color="#0000FF"]
+
+    57 [ label="leaf=-0.209809408" ]
+
+    58 [ label="leaf=0.237787634" ]
+
+    32 [ label="leaf=-0.287911415" ]
+
+    8 [ label="Dependents_No" ]
+    8 -> 17 [label="yes" color="#FF0000"]
+    8 -> 18 [label="no, missing" color="#0000FF"]
+
+    17 [ label="leaf=-0.397333264" ]
+
+    18 [ label="Tech_Support_No" ]
+    18 -> 33 [label="yes" color="#FF0000"]
+    18 -> 34 [label="no, missing" color="#0000FF"]
+
+    33 [ label="Total_Charges<2627.3501" ]
+    33 -> 59 [label="yes" color="#FF0000"]
+    33 -> 60 [label="no, missing" color="#0000FF"]
+
+    59 [ label="leaf=-0.142702103" ]
+
+    60 [ label="leaf=-0.352831513" ]
+
+    34 [ label="Partner_No" ]
+    34 -> 61 [label="yes" color="#FF0000"]
+    34 -> 62 [label="no, missing" color="#0000FF"]
+
+    61 [ label="leaf=0.0439373255" ]
+
+    62 [ label="leaf=-0.220942989" ]
+
+    4 [ label="Dependents_No" ]
+    4 -> 9 [label="yes" color="#FF0000"]
+    4 -> 10 [label="no, missing" color="#0000FF"]
+
+    9 [ label="leaf=-0.404064298" ]
+
+    10 [ label="Tenure_Months<71" ]
+    10 -> 19 [label="yes" color="#FF0000"]
+    10 -> 20 [label="no, missing" color="#0000FF"]
+
+    19 [ label="Monthly_Charges<103.25" ]
+    19 -> 35 [label="yes" color="#FF0000"]
+    19 -> 36 [label="no, missing" color="#0000FF"]
+
+    35 [ label="Contract_One_year" ]
+    35 -> 63 [label="yes" color="#FF0000"]
+    35 -> 64 [label="no, missing" color="#0000FF"]
+
+    63 [ label="leaf=-0.294476837" ]
+
+    64 [ label="leaf=-0.0866889879" ]
+
+    36 [ label="Monthly_Charges<104.300003" ]
+    36 -> 65 [label="yes" color="#FF0000"]
+    36 -> 66 [label="no, missing" color="#0000FF"]
+
+    65 [ label="leaf=0.474864036" ]
+
+    66 [ label="leaf=-0.012276819" ]
+
+    20 [ label="Zip_Code<95497" ]
+    20 -> 37 [label="yes" color="#FF0000"]
+    20 -> 38 [label="no, missing" color="#0000FF"]
+
+    37 [ label="Latitude<33.8858109" ]
+    37 -> 67 [label="yes" color="#FF0000"]
+    37 -> 68 [label="no, missing" color="#0000FF"]
+
+    67 [ label="leaf=-0.177119851" ]
+
+    68 [ label="leaf=-0.372999966" ]
+
+    38 [ label="Zip_Code<95829" ]
+    38 -> 69 [label="yes" color="#FF0000"]
+    38 -> 70 [label="no, missing" color="#0000FF"]
+
+    69 [ label="leaf=0.111119956" ]
+
+    70 [ label="leaf=-0.269344032" ]
+
+    2 [ label="Internet_Service_Fiber_optic" ]
+    2 -> 5 [label="yes" color="#FF0000"]
+    2 -> 6 [label="no, missing" color="#0000FF"]
+
+    5 [ label="Tenure_Months<4" ]
+    5 -> 11 [label="yes" color="#FF0000"]
+    5 -> 12 [label="no, missing" color="#0000FF"]
+
+    11 [ label="Tech_Support_No" ]
+    11 -> 21 [label="yes" color="#FF0000"]
+    11 -> 22 [label="no, missing" color="#0000FF"]
+
+    21 [ label="Total_Charges<24.3999996" ]
+    21 -> 39 [label="yes" color="#FF0000"]
+    21 -> 40 [label="no, missing" color="#0000FF"]
+
+    39 [ label="Latitude<33.9020462" ]
+    39 -> 71 [label="yes" color="#FF0000"]
+    39 -> 72 [label="no, missing" color="#0000FF"]
+
+    71 [ label="leaf=-0.145247027" ]
+
+    72 [ label="leaf=0.214267626" ]
+
+    40 [ label="Streaming_Movies_No" ]
+    40 -> 73 [label="yes" color="#FF0000"]
+    40 -> 74 [label="no, missing" color="#0000FF"]
+
+    73 [ label="leaf=-0.258294016" ]
+
+    74 [ label="leaf=0.151289165" ]
+
+    22 [ label="Paperless_Billing_No" ]
+    22 -> 41 [label="yes" color="#FF0000"]
+    22 -> 42 [label="no, missing" color="#0000FF"]
+
+    41 [ label="Monthly_Charges<57.1500015" ]
+    41 -> 75 [label="yes" color="#FF0000"]
+    41 -> 76 [label="no, missing" color="#0000FF"]
+
+    75 [ label="leaf=0.549871922" ]
+
+    76 [ label="leaf=-0.0806702748" ]
+
+    42 [ label="Zip_Code<92211" ]
+    42 -> 77 [label="yes" color="#FF0000"]
+    42 -> 78 [label="no, missing" color="#0000FF"]
+
+    77 [ label="leaf=0.488770396" ]
+
+    78 [ label="leaf=0.112266056" ]
+
+    12 [ label="Online_Security_No" ]
+    12 -> 23 [label="yes" color="#FF0000"]
+    12 -> 24 [label="no, missing" color="#0000FF"]
+
+    23 [ label="Latitude<33.7627602" ]
+    23 -> 43 [label="yes" color="#FF0000"]
+    23 -> 44 [label="no, missing" color="#0000FF"]
+
+    43 [ label="Online_Backup_No" ]
+    43 -> 79 [label="yes" color="#FF0000"]
+    43 -> 80 [label="no, missing" color="#0000FF"]
+
+    79 [ label="leaf=-0.103508733" ]
+
+    80 [ label="leaf=0.318208665" ]
+
+    44 [ label="Payment_Method_Electronic_check" ]
+    44 -> 81 [label="yes" color="#FF0000"]
+    44 -> 82 [label="no, missing" color="#0000FF"]
+
+    81 [ label="leaf=-0.263467491" ]
+
+    82 [ label="leaf=-0.132921234" ]
+
+    24 [ label="Total_Charges<330.049988" ]
+    24 -> 45 [label="yes" color="#FF0000"]
+    24 -> 46 [label="no, missing" color="#0000FF"]
+
+    45 [ label="Payment_Method_Credit_card_(automatic)" ]
+    45 -> 83 [label="yes" color="#FF0000"]
+    45 -> 84 [label="no, missing" color="#0000FF"]
+
+    83 [ label="leaf=0.286469102" ]
+
+    84 [ label="leaf=-0.194848388" ]
+
+    46 [ label="Dependents_No" ]
+    46 -> 85 [label="yes" color="#FF0000"]
+    46 -> 86 [label="no, missing" color="#0000FF"]
+
+    85 [ label="leaf=-0.255548" ]
+
+    86 [ label="leaf=-0.0540844724" ]
+
+    6 [ label="Tenure_Months<16" ]
+    6 -> 13 [label="yes" color="#FF0000"]
+    6 -> 14 [label="no, missing" color="#0000FF"]
+
+    13 [ label="Dependents_No" ]
+    13 -> 25 [label="yes" color="#FF0000"]
+    13 -> 26 [label="no, missing" color="#0000FF"]
+
+    25 [ label="Zip_Code<91706" ]
+    25 -> 47 [label="yes" color="#FF0000"]
+    25 -> 48 [label="no, missing" color="#0000FF"]
+
+    47 [ label="Partner_No" ]
+    47 -> 87 [label="yes" color="#FF0000"]
+    47 -> 88 [label="no, missing" color="#0000FF"]
+
+    87 [ label="leaf=0.117908292" ]
+
+    88 [ label="leaf=0.758623242" ]
+
+    48 [ label="Latitude<33.0158653" ]
+    48 -> 89 [label="yes" color="#FF0000"]
+    48 -> 90 [label="no, missing" color="#0000FF"]
+
+    89 [ label="leaf=0.0885886177" ]
+
+    90 [ label="leaf=-0.354720056" ]
+
+    26 [ label="Total_Charges<116.849998" ]
+    26 -> 49 [label="yes" color="#FF0000"]
+    26 -> 50 [label="no, missing" color="#0000FF"]
+
+    49 [ label="Tech_Support_No" ]
+    49 -> 91 [label="yes" color="#FF0000"]
+    49 -> 92 [label="no, missing" color="#0000FF"]
+
+    91 [ label="leaf=0.0859725103" ]
+
+    92 [ label="leaf=0.894894958" ]
+
+    50 [ label="Monthly_Charges<77.9499969" ]
+    50 -> 93 [label="yes" color="#FF0000"]
+    50 -> 94 [label="no, missing" color="#0000FF"]
+
+    93 [ label="leaf=0.365127504" ]
+
+    94 [ label="leaf=0.666278601" ]
+
+    14 [ label="Dependents_No" ]
+    14 -> 27 [label="yes" color="#FF0000"]
+    14 -> 28 [label="no, missing" color="#0000FF"]
+
+    27 [ label="Zip_Code<90240" ]
+    27 -> 51 [label="yes" color="#FF0000"]
+    27 -> 52 [label="no, missing" color="#0000FF"]
+
+    51 [ label="leaf=0.237787634" ]
+
+    52 [ label="Zip_Code<91354" ]
+    52 -> 95 [label="yes" color="#FF0000"]
+    52 -> 96 [label="no, missing" color="#0000FF"]
+
+    95 [ label="leaf=-0.120446883" ]
+
+    96 [ label="leaf=-0.395411849" ]
+
+    28 [ label="Payment_Method_Electronic_check" ]
+    28 -> 53 [label="yes" color="#FF0000"]
+    28 -> 54 [label="no, missing" color="#0000FF"]
+
+    53 [ label="Streaming_Movies_No" ]
+    53 -> 97 [label="yes" color="#FF0000"]
+    53 -> 98 [label="no, missing" color="#0000FF"]
+
+    97 [ label="leaf=0.249600157" ]
+
+    98 [ label="leaf=0.028760571" ]
+
+    54 [ label="Total_Charges<4895.1001" ]
+    54 -> 99 [label="yes" color="#FF0000"]
+    54 -> 100 [label="no, missing" color="#0000FF"]
+
+    99 [ label="leaf=0.427981406" ]
+
+    100 [ label="leaf=0.114889063" ]
+}
